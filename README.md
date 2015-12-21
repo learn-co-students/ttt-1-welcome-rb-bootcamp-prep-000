@@ -23,7 +23,7 @@ We're going to build a simple program that implements only the very first thing 
 
 ## Troubleshooting
 
-Here are somethings you can try to get more clues to solve the lab.
+Here are some things you can try to get more clues to solve the lab.
 
 ### 1. Try running `ruby lib/welcome.rb`
 
@@ -62,3 +62,5 @@ Or something that looks like:
 ```
 
 What these errors are saying is that the test expected you to print `"Welcome to Tic Tac Toe!"` but you printed something else. Programming is absolutely precise, make sure your tests are printing exactly "Welcome to Tic Tac Toe!".
+
+<a href='https://learn.co/lessons/ttt-1-welcome-rb' data-visibility='hidden'>View this lesson on Learn.co</a>
