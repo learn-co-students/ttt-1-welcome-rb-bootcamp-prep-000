@@ -6,4 +6,4 @@ describe "lib/welcome.rb" do
   end
 end
 
-
+put "Welcome to Tic Tac Toe!"
