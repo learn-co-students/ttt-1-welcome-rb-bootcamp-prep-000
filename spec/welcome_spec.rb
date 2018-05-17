@@ -5,6 +5,3 @@ describe "lib/welcome.rb" do
     load './lib/welcome.rb'
   end
 end
-
-put "Welcome to Tic Tac Toe!"
-lib/welcome.rb
