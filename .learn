@@ -1,6 +1,5 @@
-tags:
+learn
+tags
   - puts
-  - tictactoe
-languages:
-  - ruby
-  
+  - 'tictactoe'
+'languages'
