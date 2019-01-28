@@ -29,11 +29,15 @@ Here are some things you can try to get more clues to solve the lab.
 
 When you run `ruby lib/welcome.rb` from your terminal you are asking the Ruby interpreter to run your program. If you see no output, like below, that means there is no code in `lib/welcome.rb` to print "Welcome to Tic Tac Toe!".
 
+**Note:** The file `welcome.rb` already exists in the folder `lib`, but is not displayed in Learn IDE default view. 
+
 ![No Puts](http://learn-co-videos.s3.amazonaws.com/ruby/no.puts.in.code.gif)
 
 The solution to this is to make sure you have `puts "Welcome to Tic Tac Toe!"` in `lib/welcome.rb`. A working program should look like:
 
 ![Working program](http://learn-co-videos.s3.amazonaws.com/ruby/working.tic.tac.toe.rb.gif)
+
+**Note:** Contrary to the workflow of the previous lesson, it is NOT necessary to create a new file to contain the 'puts` instruction.  
 
 **Hint: Make sure you've saved `lib/welcome.rb`.**
 
@@ -50,17 +54,6 @@ When you run `learn` you might see failing tests even though your program seemin
    # ./lib/welcome.rb:4:in `puts'
 ```
 
-Or something that looks like:
+An error like this is telling you that the test expects you to print `"Welcome to Tic Tac Toe!"`, but you printed something else. Programming is absolutely precise, make sure your tests are printing exactly "Welcome to Tic Tac Toe!".
 
-```
-1) lib/welcome.rb prints "Welcome to Tic Tac Toe!"
-   Failure/Error: load './lib/welcome.rb'
-     #<IO:0x007fa2b28325a0> received :puts with unexpected arguments
-       expected: ("Welcome to Tic Tac Toe!")
-            got: ("Welcome to tic tac toe!")
-   # ./lib/welcome.rb:4:in `puts'
-```
-
-What these errors are saying is that the test expected you to print `"Welcome to Tic Tac Toe!"` but you printed something else. Programming is absolutely precise, make sure your tests are printing exactly "Welcome to Tic Tac Toe!".
-
-<a href='https://learn.co/lessons/ttt-1-welcome-rb' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ttt-1-welcome-rb' title='Welcome Message for Tic Tac Toe'>Welcome Message for Tic Tac Toe</a> on Learn.co and start learning to code for free.</p>
