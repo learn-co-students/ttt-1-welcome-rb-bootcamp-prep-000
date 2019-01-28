@@ -29,11 +29,15 @@ Here are some things you can try to get more clues to solve the lab.
 
 When you run `ruby lib/welcome.rb` from your terminal you are asking the Ruby interpreter to run your program. If you see no output, like below, that means there is no code in `lib/welcome.rb` to print "Welcome to Tic Tac Toe!".
 
+**Note:** The file `welcome.rb` already exists in the folder `lib`, but is not displayed in Learn IDE default view. 
+
 ![No Puts](http://learn-co-videos.s3.amazonaws.com/ruby/no.puts.in.code.gif)
 
 The solution to this is to make sure you have `puts "Welcome to Tic Tac Toe!"` in `lib/welcome.rb`. A working program should look like:
 
 ![Working program](http://learn-co-videos.s3.amazonaws.com/ruby/working.tic.tac.toe.rb.gif)
+
+**Note:** Contrary to the workflow of the previous lesson, it is NOT necessary to create a new file to contain the 'puts` instruction.  
 
 **Hint: Make sure you've saved `lib/welcome.rb`.**
 
