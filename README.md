@@ -1,4 +1,17 @@
 # Welcome Message for Tic Tac Toe
+learn
+# puts "Welcome to tic tac toe!"
+# "learn!"
+# putsS "Welcome to tic tac toes!"
+
+# puts "Welcome to tic tac toe"
+# puts "Welcome to tic tac toe"
+# puts Welcome to tic tac toe"
+# puts 
+# "learn!"
+# "Learn!"
+Learn
+# puts  "Welcome to tic tac toe!"
 
 ## Overview
 
