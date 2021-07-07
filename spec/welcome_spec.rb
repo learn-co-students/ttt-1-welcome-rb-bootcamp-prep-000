@@ -1,7 +1,9 @@
-describe "lib/welcome.rb" do
+# frozen_string_literal: true
+
+describe 'lib/welcome.rb' do
   it 'prints "Welcome to Tic Tac Toe!"' do
-    expect($stdout).to receive(:puts).with("Welcome to Tic Tac Toe!"), "Make sure lib/welcome.rb has code that can output 'Welcome to Tic Tac Toe!' exactly."
-    
+    expect($stdout).to receive(:puts).with('Welcome to Tic Tac Toe!'), "Make sure lib/welcome.rb has code that can output 'Welcome to Tic Tac Toe!' exactly."
+
     load './lib/welcome.rb'
   end
 end
